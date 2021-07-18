@@ -47,7 +47,7 @@ require 'dbconnection.php';
         <tbody>
             <?php
             $numrows = mysqli_num_rows($op);
-              echo $numrows;
+             
             if($numrows > 1){
               
                 ?>
